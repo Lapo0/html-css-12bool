@@ -78,3 +78,7 @@ section {
 [class^='col-offset'] {
     background-color: white;
 }
+
+.offset .row{
+    flex-wrap: nowrap;
+}

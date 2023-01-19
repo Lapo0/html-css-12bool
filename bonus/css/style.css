@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Krona One', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png);
+    background-size: contain;
+    background-position: cover;
+}
+
+img{
+    width: 100%;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+}
+
+[class^='col'].back{
+    background-color: #5C94FC;
+    z-index: -999;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+h1 img{
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.wall{
+    background-image: url(https://www.mariowiki.it/images/thumb/6/63/Brick_Block.png/200px-Brick_Block.png);
+    background-size: contain;
+    background-position: center;
+    height: 40px;
+}
+
+.mario{
+    width: 50px;
+}
+
+.flag{
+    position: absolute;
+    width: 125px;
+    right: -20%;
+    bottom: -20%;
+    z-index: -999;
+}
+
+
+.cube-1{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 45px;
+}
+
+.cube-2{
+    position: absolute;
+    top: 15%;
+    right: 36%;
+    width: 45px;
+}
+
+.pianta{
+    position: absolute;
+    top: 33%;
+    right: 27%;
+    width: 80px;
+    z-index: -1;
+}
+
+.tubo{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+    width: 50px;
+    z-index: -999;
+}
+
+.goomba{
+    position: absolute;
+    bottom: 23%;
+    left: 51%;
+    width: 30px;
+    z-index: -999;
+}
+
+.koopa{
+    position: absolute;
+    left: 23%;
+    top: 29%;
+    width: 100px;
+    z-index: -999;
+}
