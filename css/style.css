@@ -72,5 +72,9 @@ section {
 }
 
 .blue [class^='col'] {
-    padding: 20px;
+    padding: 20px 0;
+}
+
+[class^='col-offset'] {
+    background-color: white;
 }
