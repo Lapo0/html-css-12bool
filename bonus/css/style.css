@@ -133,3 +133,10 @@ section:hover .mario{
     z-index: -999;
     filter: drop-shadow(40px -15px 25px green);
 }
+
+.bowser{
+    position: absolute;
+    left: 25%;
+    bottom: -79%;
+    width: 200px;
+}
