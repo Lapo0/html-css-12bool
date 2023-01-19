@@ -11,8 +11,8 @@ html{
 body{
     height: 100vh;
     background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png);
-    background-size: contain;
-    background-position: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 img{
@@ -30,6 +30,7 @@ a {
     position: relative;
 }
 
+
 [class^='col'].back{
     background-color: #5C94FC;
     z-index: -999;
@@ -44,6 +45,7 @@ h1{
 h1 img{
     margin-bottom: 50px;
     width: 300px;
+    filter: drop-shadow(30px -10px 30px white);
 }
 
 .wall{
@@ -55,6 +57,20 @@ h1 img{
 
 .mario{
     width: 50px;
+    filter: drop-shadow(20px -10px 25px white);
+}
+
+.mario-run{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    z-index: -999;
+    display: none;
+}
+
+section:hover .mario{
+    overflow: hidden;
 }
 
 .flag{
@@ -71,6 +87,7 @@ h1 img{
     top: 5%;
     left: 40%;
     width: 45px;
+    filter: drop-shadow(1px 16px 20px yellow);
 }
 
 .cube-2{
@@ -78,6 +95,7 @@ h1 img{
     top: 15%;
     right: 36%;
     width: 45px;
+    filter: drop-shadow(1px 16px 20px yellow);
 }
 
 .pianta{
@@ -86,6 +104,7 @@ h1 img{
     right: 27%;
     width: 80px;
     z-index: -1;
+    filter: drop-shadow(-20px -10px 50px yellow);
 }
 
 .tubo{
@@ -94,6 +113,7 @@ h1 img{
     left: 2%;
     width: 50px;
     z-index: -999;
+    filter: drop-shadow(0 -25px 13px green);
 }
 
 .goomba{
@@ -102,6 +122,7 @@ h1 img{
     left: 51%;
     width: 30px;
     z-index: -999;
+    filter: drop-shadow(20px 15px 20px brown);
 }
 
 .koopa{
@@ -110,4 +131,5 @@ h1 img{
     top: 29%;
     width: 100px;
     z-index: -999;
+    filter: drop-shadow(40px -15px 25px green);
 }
